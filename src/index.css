@@ -19,10 +19,29 @@
 }
 
 .AboutMe {
-  color: #808080;
-  font-size: 22px;
   margin-top: 400px;
   margin-left: 250px;
+}
+
+.AboutMe h2 {
+  color: #808080;
+  font-size: 30px;
+}
+
+.AboutMe hr {
+  margin-top: -15px;
+  background-color: #808080;
+  width: 180px;
+}
+
+.ExperienceAbout {
+  text-align: left;
+  line-height: 30px;
+  margin-right: 900px;
+}
+
+.FunAbout {
+  text-align: right;
 }
 
 @keyframes fadeIn {
