@@ -15,7 +15,14 @@
 .Header h2 {
   font-size: 22px;
   color: #808080;
-  -webkit-animation: fadeIn 12s;
+  -webkit-animation: fadeIn 10s;
+}
+
+.AboutMe {
+  color: #808080;
+  font-size: 22px;
+  margin-top: 400px;
+  margin-left: 250px;
 }
 
 @keyframes fadeIn {
