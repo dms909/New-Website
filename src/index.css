@@ -34,14 +34,19 @@
   width: 180px;
 }
 
+.AboutText {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 .ExperienceAbout {
-  text-align: left;
+  flex: 1;
   line-height: 30px;
-  margin-right: 900px;
+  margin-right: 150px;
 }
 
 .FunAbout {
-  text-align: right;
+
 }
 
 @keyframes fadeIn {
