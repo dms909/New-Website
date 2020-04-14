@@ -3,11 +3,19 @@
 }
 
 .Header {
-  font-size: 25px;
   margin-left: 250px;
   margin-top: 250px;
+}
+.Header h1 {
+  font-size: 50px;
   line-height: 60px;
   -webkit-animation: fadeIn 4s;
+}
+
+.Header h2 {
+  font-size: 22px;
+  color: #808080;
+  -webkit-animation: fadeIn 12s;
 }
 
 @keyframes fadeIn {
