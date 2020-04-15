@@ -18,12 +18,12 @@ const AboutMe = () => {
                 </div>
 
                 <div className="FunAbout">
-                    <p> Although most of my experience comes from professional enviroments, I enjoy learning new technologies on my own time. Currently, I am working
-                        on an application to assist employees who work from home. Some of my favorite technologies I've been learning lately have been React, Python,
-                        C#, and SpringBoot.
+                    <p> Although most of my experience comes from professional environments, I enjoy learning new technologies on my own time. Currently, I am 
+                        working on an application to assist employees who work from home. Recently Some of my favorite technologies I've been learning have been 
+                        React, Python, C#, and SpringBoot.
                         <br />
                         <br />
-                        On top of software development, I am very passioniate about music. In my time at Iowa State, I played in a band and was a member of the GENRE
+                        On top of software development, I am very passionate about music. In my time at Iowa State, I played in a band and was a member of the GENRE
                         music club. I play guitar, and I'm currently learning the piano. Check out the music tab to see what I've been listening to on Spotify!
                     </p>
                 </div>
