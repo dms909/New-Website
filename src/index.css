@@ -37,16 +37,15 @@
 .AboutText {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  line-height: 30px;
 }
 
 .ExperienceAbout {
-  flex: 1;
-  line-height: 30px;
   margin-right: 150px;
 }
 
 .FunAbout {
-
+  padding-right: 100px;
 }
 
 @keyframes fadeIn {
