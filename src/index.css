@@ -19,7 +19,7 @@
 }
 
 .AboutMe {
-  margin-top: 400px;
+  margin-top: 490px;
   margin-left: 250px;
 }
 
@@ -46,6 +46,23 @@
 
 .FunAbout {
   padding-right: 100px;
+}
+
+
+.Education {
+  margin-top: 400px;
+  margin-left: 250px;
+}
+
+.Education h2 {
+  color: #808080;
+  font-size: 30px;
+}
+
+.Education hr {
+  margin-top: -15px;
+  background-color: #808080;
+  width: 180px;
 }
 
 @keyframes fadeIn {
