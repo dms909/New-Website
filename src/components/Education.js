@@ -6,12 +6,11 @@ const Education = () => {
             <h2>Education</h2>
             <hr align="left"/>
 
-            <h4>Fall 2017 - Present</h4>
-            <h3>Iowa State University</h3>
-            <h4>Ames, Iowa</h4>
-            <h4>Bachelors Degree</h4>
-            <p>Majoring in Software Engineering</p>
-            <p>Minoring in Cyber Security</p>
+            <h3 className="EducationHeader">Iowa State University</h3>
+            <h4 className="EducationDate">Fall 2017 - Present</h4>
+    
+            <h4>Bachelors of Science in Software Engineering</h4>
+            <h4>Minor in Cyber Security</h4>
 
         </div>
      );
