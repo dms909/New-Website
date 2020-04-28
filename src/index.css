@@ -52,7 +52,6 @@
 .Education {
   margin-top: 400px;
   margin-left: 250px;
-  grid-template-columns: 1fr 1fr;
 }
 
 .Education h2 {
@@ -70,12 +69,13 @@
   line-height: 5px;
 }
 
-.EducationHeader {
-  margin-right: 150px;
+.EducationSchoolName {
+  display: inline-block;
+  margin-right: 300px;
 }
 
 .EducationDate {
-  padding-right: 200px;
+  display: inline-block;
 }
 
 @keyframes fadeIn {
