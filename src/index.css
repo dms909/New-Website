@@ -65,10 +65,6 @@
   width: 180px;
 }
 
-.Education p {
-  line-height: 5px;
-}
-
 .EducationSchoolName {
   display: inline-block;
   margin-right: 300px;
@@ -76,6 +72,17 @@
 
 .EducationDate {
   display: inline-block;
+  color: #686868;
+}
+
+.EducationMajor {
+  color: #686868;
+  margin-top: -15px;
+}
+
+.EducationMinor {
+  color: #686868;
+  margin-top: -15px;
 }
 
 @keyframes fadeIn {
