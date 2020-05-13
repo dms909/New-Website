@@ -2,6 +2,12 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+hr {
+  margin-top: -15px;
+  background-color: #808080;
+  width: 180px;
+}
+
 .Header {
   margin-left: 250px;
   margin-top: 250px;
@@ -28,12 +34,6 @@
   font-size: 30px;
 }
 
-.AboutMe hr {
-  margin-top: -15px;
-  background-color: #808080;
-  width: 180px;
-}
-
 .AboutText {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -50,19 +50,13 @@
 
 
 .Education {
-  margin-top: 400px;
+  margin-top: 200px;
   margin-left: 250px;
 }
 
 .Education h2 {
   color: #808080;
   font-size: 30px;
-}
-
-.Education hr {
-  margin-top: -15px;
-  background-color: #808080;
-  width: 180px;
 }
 
 .EducationSchoolName {
@@ -75,14 +69,34 @@
   color: #686868;
 }
 
+.EducationInformation {
+  margin-top: -30px;;
+}
 .EducationMajor {
   color: #686868;
   margin-top: -15px;
+  display: inline-block;
+}
+
+.EducationGPA {
+  color: #686868;
+  margin-left: 140px;
+  display: inline-block;
 }
 
 .EducationMinor {
   color: #686868;
   margin-top: -15px;
+}
+
+.Experience {
+  margin-top: 100px;
+  margin-left: 250px;
+}
+
+.Experience h2 {
+  color: #808080;
+  font-size: 30px;
 }
 
 @keyframes fadeIn {
