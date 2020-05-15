@@ -17,8 +17,8 @@ const Experience = () => {
                         their authorized family members
                     </li>
                     <li>Utilized React and Redux to build interactive front-end pages for pharmacy family accounts</li>
-                    <li>Built and maintained RESTful APIs using .NET core with C#</li>
-                    <li>Followed Agile and TDD methologies</li>
+                    <li>Developed and maintained RESTful APIs using .NET core with C#</li>
+                    <li>Followed Agile and TDD methodologies</li>
                 </ul>
             </div>
 
@@ -29,8 +29,8 @@ const Experience = () => {
 
                 <ul>
                     <li>Used my knowledge of Java and object-oriented programming to explain questions and assist students with understanding course material</li>
-                    <li>Held weekly office hours for students to recieve additional help to ensure their success in the course</li>
-                    <li>Lead a weekly lab section of 30 students to help students solidfy programming concepts and skills</li>
+                    <li>Held weekly office hours for students to receive additional help to ensure their success in the course</li>
+                    <li>Lead a weekly lab section of 30 students to help students solidify programming concepts and skills</li>
                 </ul>
             </div>
 
@@ -40,7 +40,7 @@ const Experience = () => {
                 <h4>Checker Stocker</h4>
 
                 <ul>
-                    <li>Collaborated with team members to provide high quality customer service</li>
+                    <li>Collaborated with team members to provide high-quality customer service</li>
                     <li>Applied communication skills to provide a simple and enjoyable shopping experience</li>
                 </ul>
             </div>
