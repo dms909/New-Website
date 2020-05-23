@@ -2,9 +2,7 @@ import React from 'react';
 
 const ContactButton = () => {
     return ( 
-        <div>
-            <button>Contact Me!</button>
-        </div>
+        <button className="ContactButton">Contact Me!</button>
      );
 }
  
