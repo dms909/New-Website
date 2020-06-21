@@ -1,27 +1,19 @@
 .App {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Apercu, "Source Sans Pro", system, system-ui, -apple-system,
+    BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 300;
 }
 
 hr {
   margin-top: -15px;
   background-color: #808080;
-  width: 180px;
+  width: 325px;
 }
 
-.Header {
-  margin-left: 250px;
-  margin-top: 250px;
-}
-.Header h1 {
+.fa-3x {
   font-size: 50px;
-  line-height: 60px;
-  -webkit-animation: fadeIn 4s;
-}
-
-.Header h2 {
-  font-size: 22px;
-  color: #808080;
-  -webkit-animation: fadeIn 10s;
+  margin-left: 39px;
+  margin-top: 25px;
 }
 
 .AboutMe {
@@ -38,6 +30,7 @@ hr {
   display: grid;
   grid-template-columns: 1fr 1fr;
   line-height: 30px;
+  font-size: 0.9rem;
 }
 
 .ExperienceAbout {
@@ -47,7 +40,6 @@ hr {
 .FunAbout {
   padding-right: 100px;
 }
-
 
 .Education {
   margin-top: 200px;
@@ -70,7 +62,7 @@ hr {
 }
 
 .EducationInformation {
-  margin-top: -30px;;
+  margin-top: -30px;
 }
 .EducationMajor {
   color: #686868;
@@ -99,7 +91,33 @@ hr {
   font-size: 30px;
 }
 
+.PersonalProjects {
+  margin-top: 100px;
+  margin-left: 250px;
+}
+
+.ContactButton {
+  background-color: #ffffff;
+  border: solid #000000;
+  color: #000000;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.ContactButton:hover {
+  background-color: #000000;
+  color: #ffffff;
+  transition: 0.7s;
+}
+
 @keyframes fadeIn {
-  0% {opacity: 0;}
-  100% {opacity: 1;}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
