@@ -9,11 +9,10 @@ const IowaState = () => {
   return (
     <IowaStateContainer>
       <h6>Iowa State University</h6>
-      <h4>
+      <h6>Bachelors of Science in Software Engineering</h6>
+      <h6>
         <i>August 2017 - Present</i>
-      </h4>
-
-      <h4>Bachelors of Science in Software Engineering</h4>
+      </h6>
       <h4>
         <i>GPA: 3.27</i>
       </h4>

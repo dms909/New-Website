@@ -1,11 +1,10 @@
 import React from "react";
-import Header from "./components/Header";
-import AboutMe from "./components/AboutMe";
-import Education from "./components/Education";
-import Experience from "./components/Experience";
-import PersonalProjects from "./components/PersonalProjects";
-import EducationExperienceSelector from "./components/EducationExperienceSelector";
-import Contact from "./components/Contact";
+import Header from "./components/Sections/Header";
+import AboutMe from "./components/Sections/AboutMe";
+import PersonalProjects from "./components/Sections/PersonalProjects";
+import EducationExperienceSelector from "./components/Sections/EducationExperienceSelector";
+import Contact from "./components/Sections/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -14,6 +13,8 @@ function App() {
       <AboutMe />
       <EducationExperienceSelector />
       <PersonalProjects />
+      <Contact />
+      <Footer />
     </div>
   );
 }

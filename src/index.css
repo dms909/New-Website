@@ -2,6 +2,7 @@
   font-family: Apercu, "Source Sans Pro", system, system-ui, -apple-system,
     BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
   font-weight: 300;
+  overflow-x: hidden;
 }
 
 hr {
@@ -14,31 +15,6 @@ hr {
   font-size: 50px;
   margin-left: 39px;
   margin-top: 25px;
-}
-
-.AboutMe {
-  margin-top: 550px;
-  margin-left: 250px;
-}
-
-.AboutMe h2 {
-  color: #808080;
-  font-size: 30px;
-}
-
-.AboutText {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  line-height: 30px;
-  font-size: 0.9rem;
-}
-
-.ExperienceAbout {
-  margin-right: 150px;
-}
-
-.FunAbout {
-  padding-right: 100px;
 }
 
 .Education {
@@ -94,23 +70,6 @@ hr {
 .PersonalProjects {
   margin-top: 100px;
   margin-left: 250px;
-}
-
-.ContactButton {
-  background-color: #ffffff;
-  border: solid #000000;
-  color: #000000;
-  padding: 15px 32px;
-  text-align: center;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
-
-.ContactButton:hover {
-  background-color: #000000;
-  color: #ffffff;
-  transition: 0.7s;
 }
 
 @keyframes fadeIn {

@@ -4,6 +4,10 @@ const EducationExperienceReducer = (state = "", action) => {
       return action.payload;
     case "PRINCIPAL":
       return action.payload;
+    case "TA":
+      return action.payload;
+    case "HY-VEE":
+      return action.payload;
     default:
       return state;
   }

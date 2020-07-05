@@ -2,7 +2,7 @@ import React from "react";
 import FontAwesome from "react-fontawesome";
 import faStyles from "font-awesome/css/font-awesome.css";
 import { Link, animateScroll as scroll } from "react-scroll";
-import me from "../photos/me.jpg";
+import me from "../../photos/me.jpg";
 import styled from "styled-components";
 
 const HeaderContainer = styled.div`
