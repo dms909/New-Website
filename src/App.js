@@ -5,10 +5,12 @@ import PersonalProjects from "./components/Sections/PersonalProjects";
 import EducationExperienceSelector from "./components/Sections/EducationExperienceSelector";
 import Contact from "./components/Sections/Contact";
 import Footer from "./components/Footer";
+import TopNav from "./components/TopNav";
 
 function App() {
   return (
     <div className="App">
+      <TopNav />
       <Header />
       <AboutMe />
       <EducationExperienceSelector />

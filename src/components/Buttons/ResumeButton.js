@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import PDF from "../../Dylan-Smith-Resume.pdf";
 
 const ResumeButtonContainer = styled.div`
   button {
@@ -23,7 +24,9 @@ const ResumeButtonContainer = styled.div`
 const ResumeButton = () => {
   return (
     <ResumeButtonContainer>
-      <button>My Resume</button>
+      <a href={PDF}>
+        <button>My Resume</button>
+      </a>
     </ResumeButtonContainer>
   );
 };

@@ -7,7 +7,7 @@ import styled from "styled-components";
 
 const HeaderContainer = styled.div`
   display: flex;
-  margin-left: 250px;
+  margin-left: 25%;
   margin-top: 250px;
 
   h1 {
@@ -27,16 +27,26 @@ const HeaderContainer = styled.div`
     margin-top: -30px;
     -webkit-animation: fadeIn 10s;
   }
+
+  @media (min-width: 3000px) {
+    margin-left: 35%;
+    margin-right: 35%;
+  }
 `;
 
 const HeaderGradientContainer = styled.div`
   background: -webkit-linear-gradient(left top, crimson 0%, blue 100%);
   width: 100px;
   height: 100px;
-  margin-left: 750px;
+  margin-left: 40%;
   margin-top: 100px;
   border-radius: 1000px;
   padding: 5px;
+
+  @media (min-width: 3000px) {
+    margin-left: 50%;
+    margin-right: 50%;
+  }
 `;
 
 const HeaderArrowContainer = styled.div`
@@ -67,11 +77,13 @@ const Header = () => {
         <img src={me} width="300" height="400" />
       </HeaderContainer>
 
-      <HeaderGradientContainer>
-        <HeaderArrowContainer>
-          <FontAwesome name="long-arrow-down " size="3x" />
-        </HeaderArrowContainer>
-      </HeaderGradientContainer>
+      <a href="#aboutme">
+        <HeaderGradientContainer>
+          <HeaderArrowContainer>
+            <FontAwesome name="long-arrow-down " size="3x" />
+          </HeaderArrowContainer>
+        </HeaderGradientContainer>
+      </a>
     </div>
   );
 };

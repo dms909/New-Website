@@ -5,6 +5,11 @@
   overflow-x: hidden;
 }
 
+html {
+  scroll-behavior: smooth;
+  background-color: #f9f9f9;
+}
+
 hr {
   margin-top: -15px;
   background-color: #808080;
@@ -15,61 +20,6 @@ hr {
   font-size: 50px;
   margin-left: 39px;
   margin-top: 25px;
-}
-
-.Education {
-  margin-top: 200px;
-  margin-left: 250px;
-}
-
-.Education h2 {
-  color: #808080;
-  font-size: 30px;
-}
-
-.EducationSchoolName {
-  display: inline-block;
-  margin-right: 300px;
-}
-
-.EducationDate {
-  display: inline-block;
-  color: #686868;
-}
-
-.EducationInformation {
-  margin-top: -30px;
-}
-.EducationMajor {
-  color: #686868;
-  margin-top: -15px;
-  display: inline-block;
-}
-
-.EducationGPA {
-  color: #686868;
-  margin-left: 140px;
-  display: inline-block;
-}
-
-.EducationMinor {
-  color: #686868;
-  margin-top: -15px;
-}
-
-.Experience {
-  margin-top: 100px;
-  margin-left: 250px;
-}
-
-.Experience h2 {
-  color: #808080;
-  font-size: 30px;
-}
-
-.PersonalProjects {
-  margin-top: 100px;
-  margin-left: 250px;
 }
 
 @keyframes fadeIn {

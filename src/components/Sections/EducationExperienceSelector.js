@@ -1,8 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { useSelector, useDispatch } from "react-redux";
-import IowaState from "../IowaState";
-import Experience2 from "../Experience2";
+import EducationExperience from "../EducationExperience";
 import EducationExperienceReducer from "../../reducers/EducationExperienceReducer";
 
 const EducationExperienceContainer = styled.div`
@@ -20,6 +19,7 @@ const EducationExperienceContainer = styled.div`
   li {
     list-style-type: none;
     line-height: 150%;
+    margin-left: -40px;
   }
 
   ul :hover {
@@ -35,7 +35,16 @@ const displayIowaState = () => {
   hasBeenClicked = true;
   return {
     type: "IOWASTATE",
-    payload: <IowaState />,
+    payload: (
+      <EducationExperience
+        title={"Iowa State University"}
+        date={"May 2020 - Present"}
+        subtitle={"GPA: 3.27"}
+        bulletPoints={[
+          "Relevant Coursework: Computer Science 352 - Operating Systems, Computer Science 311 - Algorithms, Computer Science 363 - Databases, Software Engineering 329 - Project Management, Computer Science 228 - Data Structures, Computer Science 327 - Advanced Programming Concepts, Computer Science 227 - Object Oriented Programming ",
+        ]}
+      />
+    ),
   };
 };
 
@@ -44,10 +53,18 @@ const displayPrincipal = () => {
   return {
     type: "PRINCIPAL",
     payload: (
-      <Experience2
+      <EducationExperience
         title={"Principal Financial Group"}
         date={"May 2020 - Present"}
         subtitle={"Software Engineering Intern"}
+        bulletPoints={[
+          "> Worked with the Individual Disability Insurance team to develop a web application that provides clients with disability insurance quotes",
+          "> Partnered with another intern to create an application that allows for different teams within Principal to monitor the uptime of their various microservices",
+          "> Collaborated with a team of interns to create a social media application that allows local nonprofits to share posts and requests resources during the 2020 Principal Code Jam",
+          "> Built and maintained software using React, Redux, and Java Spring",
+          "> Gained experience with both AWS and Azure ",
+          "> Followed Scrum and Kanban methodologies",
+        ]}
       />
     ),
   };
@@ -58,10 +75,16 @@ const displayTA = () => {
   return {
     type: "TA",
     payload: (
-      <Experience2
+      <EducationExperience
         title={"Iowa State Department of Computer Science"}
         date={"August 2019 - May 2020"}
         subtitle={"Computer Science 227 Teaching Assistant"}
+        bulletPoints={[
+          "> Used my knowledge of Java and object-oriented programming to explain questions and assist students with understanding course material",
+          "> Lead a weekly lab section of 40 students to help solidify programming concepts and skills",
+          "> Held office hours for students to receive additional help to ensure their success in the course",
+          "> Graded and provided feedback on student’s assignments and exams",
+        ]}
       />
     ),
   };
@@ -72,10 +95,17 @@ const displayHyvee = () => {
   return {
     type: "HY-VEE",
     payload: (
-      <Experience2
+      <EducationExperience
         title={"Hy-Vee Inc."}
         date={"May 2019 - August 2019"}
         subtitle={"Software Engineering Intern"}
+        bulletPoints={[
+          "> Contributed extensively to the development and launch of pharmacy family accounts, a web application dedicated to allowing users to manage prescriptions for their authorized family members",
+          "> Utilized React and Redux to build interactive front-end pages for pharmacy family accountss",
+          "> Developed and maintained RESTful APIs using .NET Core with C#",
+          "> Wrote tests to provide 100% test coverage to follow TDD methodologies",
+          "> Worked using the Scrum Agile framework",
+        ]}
       />
     ),
   };
@@ -106,7 +136,20 @@ const EducationExperienceSelector = () => {
         </ul>
       </div>
       <div onLoad={() => dispatch(displayIowaState())}>
-        <h1>{hasBeenClicked ? display : <IowaState />}</h1>
+        <h1>
+          {hasBeenClicked ? (
+            display
+          ) : (
+            <EducationExperience
+              title={"Iowa State University"}
+              date={"May 2020 - Present"}
+              subtitle={"GPA: 3.27"}
+              bulletPoints={[
+                "Relevant Coursework:omputer Science 352 - Operating Systems, Computer Science 311 - Algorithms, Computer Science 363 - Databases, Software Engineering 329 - Project Management, Computer Science 228 - Data Structures, Computer Science 327 - Advanced Programming Concepts, Computer Science 227 - Object Oriented Programming ",
+              ]}
+            />
+          )}
+        </h1>
       </div>
     </EducationExperienceContainer>
   );

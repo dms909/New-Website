@@ -10,14 +10,23 @@ const ExperienceContainer = styled.div`
     h5 {
       padding-right: 25px;
     }
+    i {
+      color: #808080;
+    }
   }
 
   .subtitle {
     margin-top: -30px;
   }
+
+  li {
+    color: #808080;
+    margin: -30px 30px 40px 3px !important;
+    font-size: 15px;
+  }
 `;
 
-const Experience2 = (props) => {
+const EducationExperience = (props) => {
   return (
     <ExperienceContainer>
       <div className="experienceHeader">
@@ -27,9 +36,11 @@ const Experience2 = (props) => {
         </h6>
       </div>
       <h6 className="subtitle">{props.subtitle}</h6>
-      <p></p>
+      {props.bulletPoints.map((bulletPoint) => (
+        <li>{bulletPoint}</li>
+      ))}
     </ExperienceContainer>
   );
 };
 
-export default Experience2;
+export default EducationExperience;

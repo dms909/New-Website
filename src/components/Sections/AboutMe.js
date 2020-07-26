@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 const AboutMeContainer = styled.div`
-  margin-top: 10%;
+  margin-top: 20%;
   margin-left: 250px;
 
   h2 {
@@ -28,7 +28,7 @@ const AboutMeContainer = styled.div`
 
 const AboutMe = () => {
   return (
-    <AboutMeContainer>
+    <AboutMeContainer id="aboutme">
       <h2>About Me</h2>
       <hr align="left" />
 
@@ -62,8 +62,7 @@ const AboutMe = () => {
             On top of software development, I am very passionate about music. In
             my time at Iowa State, I played in a band and was a member of the
             GENRE music club. I play guitar, and I'm currently learning the
-            piano. Check out the music tab to see what I've been listening to on
-            Spotify!
+            piano.
           </p>
         </div>
       </div>
