@@ -1,31 +1,32 @@
 {
   "files": {
-    "main.css": "/static/css/main.e6cca4ce.chunk.css",
-    "main.js": "/static/js/main.b1f41a4b.chunk.js",
-    "main.js.map": "/static/js/main.b1f41a4b.chunk.js.map",
+    "main.css": "/static/css/main.da8dbc6f.chunk.css",
+    "main.js": "/static/js/main.1480acef.chunk.js",
+    "main.js.map": "/static/js/main.1480acef.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.068ff63e.js",
     "runtime-main.js.map": "/static/js/runtime-main.068ff63e.js.map",
     "static/css/2.9a9b1a2c.chunk.css": "/static/css/2.9a9b1a2c.chunk.css",
-    "static/js/2.41d96d7c.chunk.js": "/static/js/2.41d96d7c.chunk.js",
-    "static/js/2.41d96d7c.chunk.js.map": "/static/js/2.41d96d7c.chunk.js.map",
+    "static/js/2.4181d0c8.chunk.js": "/static/js/2.4181d0c8.chunk.js",
+    "static/js/2.4181d0c8.chunk.js.map": "/static/js/2.4181d0c8.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.42b5e7103a38630124f5a8ea84e38287.js": "/precache-manifest.42b5e7103a38630124f5a8ea84e38287.js",
+    "precache-manifest.24ff4929cf8e0d75f6b85e209a4013d9.js": "/precache-manifest.24ff4929cf8e0d75f6b85e209a4013d9.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.9a9b1a2c.chunk.css.map": "/static/css/2.9a9b1a2c.chunk.css.map",
-    "static/css/main.e6cca4ce.chunk.css.map": "/static/css/main.e6cca4ce.chunk.css.map",
-    "static/js/2.41d96d7c.chunk.js.LICENSE.txt": "/static/js/2.41d96d7c.chunk.js.LICENSE.txt",
+    "static/css/main.da8dbc6f.chunk.css.map": "/static/css/main.da8dbc6f.chunk.css.map",
+    "static/js/2.4181d0c8.chunk.js.LICENSE.txt": "/static/js/2.4181d0c8.chunk.js.LICENSE.txt",
     "static/media/Dylan-Smith-Resume.pdf": "/static/media/Dylan-Smith-Resume.bad23d80.pdf",
     "static/media/exercyze.png": "/static/media/exercyze.eeaf0bc0.png",
     "static/media/font-awesome.css": "/static/media/fontawesome-webfont.fee66e71.woff",
     "static/media/icons8-spring-logo.svg": "/static/media/icons8-spring-logo.0bef61f5.svg",
+    "static/media/logo.png": "/static/media/logo.a939b524.png",
     "static/media/me.jpg": "/static/media/me.b31406d5.jpg",
     "static/media/twitter_logo_volt.png": "/static/media/twitter_logo_volt.3e73bbd4.png"
   },
   "entrypoints": [
     "static/js/runtime-main.068ff63e.js",
     "static/css/2.9a9b1a2c.chunk.css",
-    "static/js/2.41d96d7c.chunk.js",
-    "static/css/main.e6cca4ce.chunk.css",
-    "static/js/main.b1f41a4b.chunk.js"
+    "static/js/2.4181d0c8.chunk.js",
+    "static/css/main.da8dbc6f.chunk.css",
+    "static/js/main.1480acef.chunk.js"
   ]
 }
