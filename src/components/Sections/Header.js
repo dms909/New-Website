@@ -39,7 +39,7 @@ const HeaderGradientContainer = styled.div`
   width: 100px;
   height: 100px;
   margin-left: 40%;
-  margin-top: 100px;
+  margin-top: 10%;
   border-radius: 1000px;
   padding: 5px;
 
