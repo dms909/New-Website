@@ -10,92 +10,47 @@ import spring from "../../photos/icons8-spring-logo.svg";
 import android from "../../photos/icons8-android-os-52.png";
 
 const PersonalProjectsContainer = styled.div`
-  margin-top: 100px;
-  margin-left: 250px;
+  .box {
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.08);
+    transition: all 200ms cubic-bezier(0.25, 0.1, 0.25, 1);
+    width: 960px;
+    height: 370px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
 
-  h2 {
-    color: #808080;
-    font-size: 30px;
-  }
-`;
-
-const AnimalBotContainer = styled.div`
-  .AnimalBotHeader {
-    display: flex;
-
-    h2 {
-      color: #1384ff;
-      margin-left: 10%;
-      margin-right: 10%;
-    }
-  }
-
-  .AnimalBotContent {
-    margin-top: -200px;
-    margin-left: 10%;
-    width: 35%;
-  }
-
-  h3 {
-    color: #808080;
-  }
-
-  .techUsed {
-    margin-left: 10%;
-
-    .python {
-      margin-right: 25px;
-    }
-
-    .twitter {
-      margin-right: 25px;
-    }
-
-    .reddit {
-      margin-right: 25px;
-    }
-  }
-`;
-
-const ExerCYzeContainer = styled.div`
-  margin-top: 200px;
-  .ExerCYzeHeader {
-    display: flex;
-
-    h2 {
-      color: #1384ff;
-      margin-left: 10%;
-      margin-right: 10%;
-    }
+    text-align: left;
+    background: white;
 
     img {
-      margin-left: 5%;
+      display: block;
+
+      margin-left: auto;
+      margin-right: auto;
     }
-  }
-
-  .AnimalBotContent {
-    margin-top: -300px;
-    margin-left: 10%;
-    width: 35%;
-  }
-
-  h3 {
-    color: #808080;
-  }
-
-  .techUsed {
-    margin-left: 10%;
-
-    .java {
-      margin-right: 25px;
-    }
-
-    .spring {
-      margin-right: 25px;
-    }
-
-    .android {
-      margin-right: 25px;
+    .body {
+      padding: 20px;
+      .heading {
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 10px;
+      }
+      .content {
+        height: 80px;
+        color: #8b939b;
+        font-weight: 400;
+      }
+      .underline {
+        background: #dde2e7;
+        width: 100%;
+        height: 1px;
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 5px;
+      }
+      .info {
+        display: flex;
+      }
     }
   }
 `;
@@ -103,41 +58,39 @@ const ExerCYzeContainer = styled.div`
 const PersonalProjects = () => {
   return (
     <PersonalProjectsContainer>
-      <h2>Check Out My Projects</h2>
-      <hr align="left" />
+      <div className="box">
+        <img src={twitterLogo} height="180" />
+        <div class="body">
+          <div class="heading">Animal Twitter Bot</div>
+          <div class="content">
+            A twitter bot that pulls cute pictures of animals from Reddit and
+            posts them at various points throughout the day.{" "}
+          </div>
+          <span class="underline" />
+          <div className="info">
+            <img src={python} width="25" height="35" />
+            <img src={twitter} width="25" height="35" />
+            <img src={reddit} width="25" height="35" />
+          </div>
+        </div>
+      </div>
 
-      <AnimalBotContainer>
-        <div className="AnimalBotHeader">
-          <h2>Animal Every Day Twitter Bot</h2>
-          <img src={twitterLogo} width="350" height="300" />
+      <div className="box">
+        <img src={exercyze} height="180" />
+        <div class="body">
+          <div class="heading">ExerCYze Mobile Workout App</div>
+          <div class="content">
+            A mobile app that allows users to create workout routines and share
+            them with other users.
+          </div>
+          <span class="underline" />
+          <div className="info">
+            <img src={java} width="25" height="35" />
+            <img src={spring} width="25" height="35" />
+            <img src={android} width="25" height="35" />
+          </div>
         </div>
-        <h3 className="AnimalBotContent">
-          A bot that pulls cute animal images from various Reddit pages, and
-          posts them to twitter. Check it out: @247Animals
-        </h3>
-        <div className="techUsed">
-          <img className="python" src={python} width="35" height="40" />
-          <img className="twitter" src={twitter} width="35" height="40" />
-          <img className="reddit" src={reddit} width="35" height="40" />
-        </div>
-      </AnimalBotContainer>
-
-      <ExerCYzeContainer>
-        <div className="ExerCYzeHeader">
-          <h2>ExerCYze Workout App</h2>
-          <img src={exercyze} width="350" height="400" />
-        </div>
-        <h3 className="AnimalBotContent">
-          An Android application that allows users to manage their workouts and
-          share healthy habits with other users. Developed over the course of a
-          semester for computer science 309.
-        </h3>
-        <div className="techUsed">
-          <img className="java" src={java} width="35" height="40" />
-          <img className="android" src={android} width="35" height="40" />
-          <img className="spring" src={spring} width="35" height="40" />
-        </div>
-      </ExerCYzeContainer>
+      </div>
     </PersonalProjectsContainer>
   );
 };

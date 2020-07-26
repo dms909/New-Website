@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 const AboutMeContainer = styled.div`
-  margin-top: 20%;
+  margin-top: 12%;
   margin-left: 250px;
 
   h2 {
@@ -14,8 +14,7 @@ const AboutMeContainer = styled.div`
     display: grid;
     grid-template-columns: 1fr 1fr;
     line-height: 30px;
-    font-size: 0.9rem;
-
+    font-size: 18px;
     .ExperienceAbout {
       margin-right: 150px;
     }
